@@ -56,7 +56,13 @@
     .linkedin:hover {
       color: #0e76a8;
     }
-
+    .fa.fa-twitter{
+	    font-family:sans-serif;
+    }
+    .fa.fa-twitter::before{
+    	content:"𝕏";
+	    font-size:1.2em;
+    }
     .twitter:hover {
       color: #26a7de;
     }
@@ -131,8 +137,8 @@
       <!-- End linkedin Icon -->
 
       <!-- Start twitter Icon -->
-      <div id="twitter" onclick="navigate(this.id)" class="social">
-        <span class="icon twitter"><i class="fab-x-twitter temporary-twitter-x"></i></span>
+      <div id="fa.twitter" onclick="navigate(this.id)" class="social">
+        <span class="icon twitter"><i class="fa.fa.twitter"></i></span>
       </div>
       <!-- End twitter Icon -->
 
