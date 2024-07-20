@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The a href attribute</h1>
+
+<p>An absolute URL: <a href="https://www.facebook.com/PeaceEvolutions" target="_blank">Facebook</a></p>
+<p>A relative URL: <a href="tag_a.asp">The a tag</a></p>
+
+</body>
+</html>
